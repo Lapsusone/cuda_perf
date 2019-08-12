@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
     // Timing variables.
     long runtime = 0;
 
-    if(2 != argc) {
+    if(3 != argc) {
         usage();
         return EXIT_FAILURE;
     }
