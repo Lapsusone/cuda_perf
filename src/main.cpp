@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
     int n_block = stoi(argv[1], nullptr, 10);
-    int n_threads = stoi(argv[2], nullptr, 10);
+    int n_thread = stoi(argv[2], nullptr, 10);
 
     command(argc, argv);
 
